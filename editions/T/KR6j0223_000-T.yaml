@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0223/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說護諸童子陀羅尼經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n1028A.xml
+    old_id: T19n1028A
+hash: sha256:6e2fd7570705b1f3db02ca0d029eb88bf7675a362d85d13ee41990f7a1382b39

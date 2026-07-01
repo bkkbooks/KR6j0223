@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6j0223/v1
+canonical_location: https://kanripo.org/bkk/KR6j0223/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說護諸童子陀羅尼經
+  identifiers:
+    alt_id:
+    - T19n1028A
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n1028A.xml
+    old_id: T19n1028A
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 甲
+  label: 甲
+  source_xml_id: wit4
+- short: 乙
+  label: 乙
+  source_xml_id: wit5
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0223_000.yaml, hash: 'sha256:6e2fd7570705b1f3db02ca0d029eb88bf7675a362d85d13ee41990f7a1382b39'}
+  - {seq: 1, filename: KR6j0223_001.yaml, hash: 'sha256:2b985b148bd9d9d15249dddb23f14c612e785360d1f5051adae907087cd99268'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0223_001.markers.yaml, hash: 'sha256:4408112eba3896ca8053d4940728769e59c9b1911adc91227e27abeb63fd49d4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0223_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1263
+  label: 佛說護諸童子陀羅尼經
+  type: juan
+  level: 1
+hash: sha256:4ed72261da501f71a14530776a8d25acdda8cab9e289213fb3da0dee8a7fe6ec
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

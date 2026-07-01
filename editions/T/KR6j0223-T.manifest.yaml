@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0223/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0223/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說護諸童子陀羅尼經
+  identifiers:
+    krp: KR6j0223
+    cbeta: T19n1028A
+    cbeta_old_id: T19n1028A
+    authorityid: CA0001351
+    json_key: T1028A
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n1028A.xml
+    old_id: T19n1028A
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0223_000-T.yaml, hash: 'sha256:6e2fd7570705b1f3db02ca0d029eb88bf7675a362d85d13ee41990f7a1382b39'}
+  - {seq: 1, filename: KR6j0223_001-T.yaml, hash: 'sha256:8c483f508fd58b65debc329c4a68753e420cad060a0c075359be886ba63009e6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0223_000-T.markers.yaml, hash: 'sha256:da7c431e44d19fe5e9e61c2b16850cbdabd8a9ae13cd64705798c9e86400479e'}
+  - {seq: 1, role: markers, filename: assets/KR6j0223_001-T.markers.yaml, hash: 'sha256:5bc4a8ea0587d58d5e9a2f33f45ccf6d55d8b48f87e06336e8c155f694a98c15'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0223_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1263
+  label: 佛說護諸童子陀羅尼經
+  type: juan
+  level: 1
+hash: sha256:c716f3400385be4c8a9e5769b2359cf7d5833fd878013b6c50d5470b9a6f5010
