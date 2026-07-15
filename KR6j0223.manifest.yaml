@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0223/v1
 canonical_location: https://kanripo.org/bkk/KR6j0223/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說護諸童子陀羅尼經
   identifiers:
@@ -37,10 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0223_000.yaml, hash: 'sha256:6e2fd7570705b1f3db02ca0d029eb88bf7675a362d85d13ee41990f7a1382b39'}
-  - {seq: 1, filename: KR6j0223_001.yaml, hash: 'sha256:8c483f508fd58b65debc329c4a68753e420cad060a0c075359be886ba63009e6'}
+  - {seq: 1, filename: KR6j0223_001.yaml, hash: 'sha256:be9460fe4e50060282927d3159ad6e228d7f2a7a246457f98fd50050fb9a7b58'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0223_000.markers.yaml, hash: 'sha256:ead542168a6d0a7869138679f84c9268d9bd081a0c126f1e4ea14b61e774b0e6'}
-  - {seq: 1, role: markers, filename: assets/KR6j0223_001.markers.yaml, hash: 'sha256:f216a73e39390c528f699bf3a5b82077deea323a332063655fd8250dcc4f9960'}
+  - {seq: 1, role: markers, filename: assets/KR6j0223_001.markers.yaml, hash: 'sha256:3914785791626efc769583e4a412a44e5cf0b05523f572f6c6d9eb9408b8eb2c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -52,4 +52,7 @@ table_of_contents:
   label: 佛說護諸童子陀羅尼經
   type: juan
   level: 1
-hash: sha256:fd693c6b9285fadbd5cf3ae399ae96e0539427268dad69831f0fd5a608bf3782
+hash: sha256:dd401f463ca90f1ad4cee62947339dcc0c33c6347141f01efa51f10d547eebb2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
